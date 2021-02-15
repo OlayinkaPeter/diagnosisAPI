@@ -5,6 +5,17 @@
 
 ## Getting Started
 
+### Things to Note
+- Database structure is as diagnosis code record from the ICD-10. 
+See 
+https://raw.githubusercontent.com/kamillamagna/ICD-10-CSV/master/codes.csv
+
+- Tools used:
+    + Flask
+    + PostgreSQL
+    + SQLAlchemy
+    + Flask-Migrate
+
 ### Prerequisites
 
 Kindly ensure you have the following installed:
@@ -57,3 +68,6 @@ Kindly ensure you have the following installed:
     ```
 
 7. Navigate to `http://localhost:5000` to view the API usage data.
+
+
+    
