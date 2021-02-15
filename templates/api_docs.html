@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Docs — Suggest Car Prices</title>
+
+    <!-- Bootstrap -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/themify-icons.css') }}" rel="stylesheet">
+    <link href='{{ url_for('static', filename='css/dosis-font.css') }}' rel='stylesheet' type='text/css'
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".side-menu">
+<div class="container-fluid">
+
+    <div class="row hero-header" id="home">
+        <h1>Diagnosis Codes API Usage</h1>
+        <h2 style="color: #961c18">dg_codes.herokuapp.com/dg_code</h2>
+
+        <div class="col-md-5" style="padding-top: 50px; float: left">
+            <img src="{{ url_for('static', filename='img/med.svg') }}" class="rocket animated bounce"
+                 style="border-radius: 10px"><br>
+            <p>Image Credit: <a>https://undraw.co</a></p>
+        </div>
+
+        <div class="col-md-7" style="float: left">
+            <h3>Post Parameters</h3><br>, , , , ,
+            <p style="color: #961c18">cat_code</p>
+            <p style="color: #961c18">dg_code</p>
+            <p style="color: #961c18">full_code</p>
+            <p style="color: #961c18">abb_des</p>
+            <p style="color: #961c18">full_des</p>
+            <p style="color: #961c18">title</p>
+            <p><br></p>
+
+            <h3>Example usage:</h3>
+            <p style="color: #961c18"><a target="_blank"
+                    href="https://dg_codes.herokuapp.com/dg_code?page=1">
+                dg_codes.herokuapp.com/dg_code?page=1</a></p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="footer">
+            <h2>Stuff by: <a href="https://twitter.com/olayinkapeter_" style="text-underline: #2b542c">Olayinka Peter
+                <i style="padding-left: 5px; color: #32c3ff" class="ti-twitter-alt"></i></a></h2>
+            <h2>See in <a href="https://github.com/dg_codes_API" style="text-underline: #2b542c">Github
+                <i style="padding-left: 5px; color: #32c3ff" class="ti-github"></i></a></h2>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scrolling-nav.js') }}"></script>
+<script src="{{ url_for('static', filename='js/validator.js') }}"></script>
+
+</body>
+</html>
