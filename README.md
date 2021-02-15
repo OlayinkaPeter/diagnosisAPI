@@ -34,7 +34,7 @@ Kindly ensure you have the following installed:
 
     ```
     $ createuser --interactive --pwprompt
-    $ createdb diagnosis_db
+    $ createdb diagnosis
     ```
 
 4. Export the required environment variables:
