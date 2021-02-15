@@ -2,10 +2,10 @@ from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-_DB_URL = "postgres://exnivtpqwwxzhv:c45750b47b1f563d0057f58fd3895b3d82eaf5a5b259cfecb85c4e866941f176@ec2-54-225-190-241.compute-1.amazonaws.com:5432/d7p0e5f4918d69"
+HEROKU_DB_URL = ""
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = _DB_URL
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///diagnosis"
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 

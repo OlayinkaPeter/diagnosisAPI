@@ -2,13 +2,14 @@
 
 This repository contains the code for this [blogpost](https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/).
 
+<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_png" width="60%">
 
 ## Getting Started
 
 ### Prerequisites
 
 Kindly ensure you have the following installed:
-- [ ] [Python 3.6](https://www.python.org/downloads/release/python-365/)
+- [ ] [Python 3.7](https://www.python.org/downloads/)
 - [ ] [Pip](https://pip.pypa.io/en/stable/installing/)
 - [ ] [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 - [ ] [PostgreSQL](https://www.postgresql.org/)
