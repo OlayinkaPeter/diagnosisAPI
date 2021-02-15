@@ -1,8 +1,6 @@
-# Cars in a Flask
+# Diagnosis Codes API
 
-This repository contains the code for this [blogpost](https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/).
-
-<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_png" width="60%">
+<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_.png" width="60%">
 
 ## Getting Started
 
