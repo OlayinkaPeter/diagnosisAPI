@@ -1,7 +1,11 @@
 # Diagnosis Codes API
 
 <img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_.png" width="100%">
+Home page
+
 <img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot__.png" width="100%">
+Time taken: 24ms
+
 
 ## Getting Started
 
@@ -41,7 +45,7 @@ Kindly ensure you have the following installed:
     $ pip install -r requirements.txt
     ```
 
-3. Create a PostgreSQL user with the username and password `postgres` and create a database called `diagnosis_db`:
+3. Create a PostgreSQL user with the username and password `postgres` and create a database called `diagnosis`:
 
     ```
     $ createuser --interactive --pwprompt
