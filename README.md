@@ -1,6 +1,6 @@
 # Diagnosis Codes API
 
-<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_.png" width="60%">
+<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_.png" width="100%">
 
 ## Getting Started
 
