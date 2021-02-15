@@ -17,11 +17,11 @@ Kindly ensure you have the following installed:
 1. Clone the repo:
 
     ```
-    $ git clone https://github.com/ro6ley/cars_in_a_flask.git
-    $ cd cars_in_a_flask
+    $ git clone https://github.com/OlayinkaPeter/diagnosisAPI.git
+    $ cd diagnosisAPI
     ```
 
-2. With Python 3.6 and Pip installed:
+2. Setup a virtual environment and install the requirements:
 
     ```
     $ virtualenv --python=python3 env --no-site-packages
@@ -29,11 +29,11 @@ Kindly ensure you have the following installed:
     $ pip install -r requirements.txt
     ```
 
-3. Create a PostgreSQL user with the username and password `postgres` and create a database called `cars_api`:
+3. Create a PostgreSQL user with the username and password `postgres` and create a database called `diagnosis_db`:
 
     ```
     $ createuser --interactive --pwprompt
-    $ createdb cars_api
+    $ createdb diagnosis_db
     ```
 
 4. Export the required environment variables:
@@ -42,7 +42,7 @@ Kindly ensure you have the following installed:
     $ export FLASK_APP=app.py
     ```
 
-5. Execute the migrations to create the `cars` table:
+5. Execute the migrations to create the `diagnosis` table:
 
     ```
     $ flask db migrate
@@ -55,4 +55,4 @@ Kindly ensure you have the following installed:
     $ flask run
     ```
 
-7. Navigate to `http://localhost:5000/cars` to view the cars data.
+7. Navigate to `http://localhost:5000` to view the API usage data.
