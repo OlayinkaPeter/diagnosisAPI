@@ -11,7 +11,7 @@ migrate = Migrate(app, db)
 
 
 class DiagnosisCodeModel(db.Model):
-    __tablename__ = 'diagnosis_codes'
+    __tablename__ = 'diagnosis'
 
     id = db.Column(db.Integer, primary_key=True)
     cat_code = db.Column(db.String())
