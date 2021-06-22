@@ -1,12 +1,5 @@
 # Diagnosis Codes API
 
-<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot_.png" width="100%">
-Home page <br> <br>
-
-<img src="https://github.com/OlayinkaPeter/diagnosisAPI/blob/master/shot__.png" width="100%">
-Time taken: 24ms <br> <br>
-
-
 ## Getting Started
 
 ### Things to Note
