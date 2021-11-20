@@ -10,6 +10,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 
+# DiagnosisCodeModel Class
 class DiagnosisCodeModel(db.Model):
     __tablename__ = 'diagnosis'
 
