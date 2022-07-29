@@ -36,7 +36,7 @@ class DiagnosisCodeModel(db.Model):
 
 @app.route('/')
 def hello_world():
-    return render_template('api_docs.html')
+    return render_template('index.html')
 
 
 @app.route('/dg_code', methods=['POST', 'GET'])
